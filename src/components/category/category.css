@@ -1,0 +1,9 @@
+.cat span {
+    
+    border: 1px solid #D1E7DD;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #D1E7DD;
+    font-weight: bold;
+ 
+}

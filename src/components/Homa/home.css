@@ -1,0 +1,19 @@
+.continer {
+    position: relative;
+}
+.btns {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.one {
+    margin-right: 100px;
+}
+.two {
+    margin-left: 100px;
+}
+button {
+    padding: 20px !important;
+}

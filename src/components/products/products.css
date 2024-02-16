@@ -1,0 +1,39 @@
+.pro .box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+
+}
+.box a {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(228, 217, 217);
+    border-radius: 10px;
+    width: fit-content;
+    padding: 20px;
+    cursor: pointer;
+}
+.box img {
+    width: 250px;
+    max-width: 100%;
+    height: 250px;
+    max-height: 100%;
+}
+.box h4 {
+    border: 1px solid rgb(228, 217, 217);
+    width: fit-content;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    color: black;
+   
+}
+.box span {
+    color: #333;
+}
+
